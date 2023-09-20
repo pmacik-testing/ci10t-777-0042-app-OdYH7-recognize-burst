@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-encb
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/ci10t-777-0042-tenant/ci10t-777-0042-app/devfile-sample-encb@sha256:50e77f4d8005d42ae05029a750933bb9cacd579b199de8639abcdac350b9ca3d
         name: my-nodejs
         ports:
         - containerPort: 3001
